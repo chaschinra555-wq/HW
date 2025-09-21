@@ -1,15 +1,15 @@
 '''cycle - 1'''
-'''
+
 while True:
         a = float(input("the first number: "))
         b = float(input("the second number: "))
         print(f'the sum of {a} and {b}: {a + b}')
-'''
+
 
 
 
 '''cycle - 2'''
-'''
+
 a = 1
 for row in range(1, 6):
     line = ''
@@ -20,12 +20,12 @@ for row in range(1, 6):
             else:
                 line += '*\t'
     print(line)
-'''
+
 
 
 
 '''cycle - 3'''
-'''
+
 import random
 
 num = int(input('my figure: '))
@@ -38,12 +38,12 @@ while c != num:
     print(c)
     if (c == num):
         print(f'yes! \nmy figure is {num}! \ncongratulations!')
-'''
+
 
 
 
 '''cycle - 4'''
-'''
+
 a = -1
 b = 0
 
@@ -53,12 +53,12 @@ while a != 0:
         b = a
 
 print(b)
-'''
+
 
 
 
 '''cycle - 5'''
-'''
+
 import math
 
 n = int(input('размерность таблицы умножения: '))
@@ -72,12 +72,12 @@ for k in range(1, math.ceil(n / 5) + 1):
             print(line)
             
     print()
-'''
+
 
 
 
 '''list - 1'''
-'''
+
 import random
 
 n = int(input('количество чисел в списке: '))
@@ -93,12 +93,12 @@ list.sort()
 print(f'минимальное число в выборке: {min(list)}')
 print(f'максимальное число в выборке: {max(list)}')
 print(f'медиана в выборке: {list[(n - 1) // 2]}')
-'''
+
 
 
 
 '''list - 2'''
-'''
+
 import random
 
 n = 20
@@ -133,12 +133,12 @@ list = [n1, n2, n3, n4, n5, n6, n7, n8, n9, n10]
 for i in range (len(list)):
     print(f'{i + 1}) количество элементов из отрезка [{i}0; {i}9]: {list[i]}')
     print(f'вероятность встречаемости числа из отрезка [{i}0; {i}9]: {round(list[i]/n, 2)}\n')
-'''
+
 
 
 
 '''list - 3'''
-'''
+
 import random
 
 n = int(input('размерность векторов: '))
@@ -170,12 +170,12 @@ print(f'второй веткор: {vec_2}')
 print(f'покомпонентная сумма векторов: {summ}')
 print(f'покомпонентное произведение векторов: {mult_vec_vec}')
 print(f'умножение скаляра на вектор 1: {mult_vec_scal}' if k == 1 else f'умножение скаляра на вектор 2: {mult_vec_scal}')
-'''
+
 
 
 
 '''list - 4'''
-'''
+
 a = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 vec = [1, 2, 3]
 summ = 0
@@ -198,18 +198,3 @@ for i in range(len(vec)):
 print(f'произведение матрицы на веткор: ')
 for i in range(len(b)):
     print(b[i])
-'''
-
-
-
-'''list - 5'''
-'''
-
-'''
-
-
-
-'''list - 6'''
-'''
-
-'''
