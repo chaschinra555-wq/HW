@@ -1,0 +1,47 @@
+print('Для вывода таблицы сложения введите "1"')
+print('Для вывода таблицы вычитания введите "2"')
+print('Для вывода таблицы умножения введите "3"')
+print('Для вывода таблицы деления введите "4"')
+operation = int(input('Введите цифру от 1 до 4: '))
+
+def func(operation):
+    if operation == 3:
+        print('-----Таблица умножения-----')
+        for k in range(1, 3):
+            for i in range(1, 10):
+                for j in range(5*k - 4, 5*k - 4 + 5):
+                    print (f'{i} * {j} = {(i * j)}\t', end = ' ')
+                print()
+            print()
+
+    if operation == 4:
+        print('-----Таблица деления-----')
+        for k in range(1, 3):
+            for i in range(1, 10):
+                for j in range(5*k - 4, 5*k - 4 + 5):
+                    print(f'{i * j} / {j} = {i}\t', end = ' ')
+                print()
+            print()
+
+    if operation == 1:
+        print('-----Таблица сложения-----')
+        for k in range(1, 3):
+            for i in range(1, 10):
+                for j in range(5*k - 4, 5*k - 4 + 5):
+                    print(f'{i} + {j} = {i + j}\t', end = ' ')
+                print()
+            print()
+
+    if operation == 2:
+        print('-----Таблица вычитания-----')
+        for k in range(1, 3):
+            for i in range(1, 10):
+                for j in range(5*k - 4, 5*k - 4 + 5):
+                    if (i - j) <= 0:
+                        print(f'{j} - {i} = {j - i}\t', end = ' ')
+                    else:
+                        print(f'{i} - {j} = {i - j}\t', end = ' ')
+                print()
+            print()
+
+func(operation)
