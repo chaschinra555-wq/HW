@@ -136,6 +136,8 @@ def contrast_changing(image):
     cv.waitKey()
 
 
+print('-----Задание 2.2 Преобразование изображений-----')
+
 from builtins import input
 import cv2 as cv
 import numpy as np
@@ -158,3 +160,4 @@ elif action == 2:
 else:
     print('Error!')
 '''
+
