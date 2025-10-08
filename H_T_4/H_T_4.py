@@ -157,4 +157,5 @@ elif action == 2:
     contrast_changing(image)
 else:
     print('Error!')
+
 '''
