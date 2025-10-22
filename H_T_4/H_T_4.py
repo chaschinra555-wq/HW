@@ -219,4 +219,5 @@ if __name__ == '__main__':
             pass
 
     res_image = stat_correction.processing(hist_template, image)
+
     image_writer.write_data(args.output, res_image)
