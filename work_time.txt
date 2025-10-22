@@ -1,3 +1,0 @@
-Multiplication time of two 10x10 matrices: 0.0002272999845445156s
-Multiplication time of two 100x100 matrices: 0.08067309996113181s
-Multiplication time of two 1000x1000 matrices: 57.13828660000581s
