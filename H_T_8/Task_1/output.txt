@@ -1,0 +1,12 @@
+ * Contour[0] - Area (M_00) = 1016.00 - Area OpenCV: 1016.00 - Length: 127.31
+ * Contour[1] - Area (M_00) = 1015.00 - Area OpenCV: 1015.00 - Length: 126.14
+ * Contour[2] - Area (M_00) = 1100.50 - Area OpenCV: 1100.50 - Length: 156.12
+ * Contour[3] - Area (M_00) = 1098.50 - Area OpenCV: 1098.50 - Length: 156.12
+ * Contour[4] - Area (M_00) = 2621.00 - Area OpenCV: 2621.00 - Length: 197.97
+ * Contour[5] - Area (M_00) = 2601.00 - Area OpenCV: 2601.00 - Length: 197.97
+ * Contour[6] - Area (M_00) = 1282.00 - Area OpenCV: 1282.00 - Length: 208.77
+ * Contour[7] - Area (M_00) = 1282.00 - Area OpenCV: 1282.00 - Length: 208.77
+ * Contour[8] - Area (M_00) = 1773.00 - Area OpenCV: 1773.00 - Length: 162.51
+ * Contour[9] - Area (M_00) = 1747.00 - Area OpenCV: 1747.00 - Length: 160.17
+ * Contour[10] - Area (M_00) = 861.50 - Area OpenCV: 861.50 - Length: 134.47
+ * Contour[11] - Area (M_00) = 840.00 - Area OpenCV: 840.00 - Length: 132.71
