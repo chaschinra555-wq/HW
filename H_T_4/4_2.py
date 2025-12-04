@@ -215,4 +215,5 @@ if __name__ == "__main__":
         main_func()
     except Exception as error_message:
         print(f"Ошибка: {error_message}", file=sys.stderr)
+
         sys.exit(1)
